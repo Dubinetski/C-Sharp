@@ -1,0 +1,14 @@
+Total urls 7, domains 2, paths 7
+
+Top domains:
+5 en.wikipedia.org
+2 www.google.com
+
+Top paths:
+1 /
+1 /
+1 /search
+1 /w/index.php
+1 /wiki/Free_software
+1 /wiki/Kirschkuchen
+1 /wiki/Main_Page

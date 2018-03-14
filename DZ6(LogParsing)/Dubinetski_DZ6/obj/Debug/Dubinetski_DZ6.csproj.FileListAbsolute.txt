@@ -1,0 +1,14 @@
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.exe.config
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.exe
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.pdb
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.csprojResolveAssemblyReference.cache
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.csproj.CoreCompileInputs.cache
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.exe
+C:\Programming\C#\LogParsing\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.pdb
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.exe.config
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.exe
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\bin\Debug\Dubinetski_DZ6.pdb
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.exe
+C:\Programming\C#\Dubinetski_DZ6\Dubinetski_DZ6\obj\Debug\Dubinetski_DZ6.pdb
