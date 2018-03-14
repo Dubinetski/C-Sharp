@@ -1,0 +1,7 @@
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\bin\Debug\SmartArray.pdb
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\obj\Debug\SmartArray.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\obj\Debug\SmartArray.pdb
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\bin\Debug\SmartArray.dll.config
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\bin\Debug\SmartArray.dll
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\obj\Debug\SmartArray.dll
+C:\Programming\C#\Dubinetski_DZ2\SmartArray\obj\Debug\SmartArray.csprojResolveAssemblyReference.cache

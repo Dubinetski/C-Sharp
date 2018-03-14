@@ -1,0 +1,9 @@
+C:\Programming\C#\Dubinetski_DZ2\Map\bin\Debug\netstandard2.0\Map.deps.json
+C:\Programming\C#\Dubinetski_DZ2\Map\bin\Debug\netstandard2.0\Map.dll
+C:\Programming\C#\Dubinetski_DZ2\Map\bin\Debug\netstandard2.0\Map.pdb
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.AssemblyInfoInputs.cache
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.AssemblyInfo.cs
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.dll
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.pdb
+C:\Programming\C#\Dubinetski_DZ2\Map\obj\Debug\netstandard2.0\Map.csprojResolveAssemblyReference.cache
