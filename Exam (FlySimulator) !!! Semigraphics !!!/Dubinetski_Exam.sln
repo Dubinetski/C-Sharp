@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlySimulator", "FlySimulator\FlySimulator.csproj", "{BEF91439-0CA1-4A96-87A4-7C94ED6B6809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dubinetski", "Dubinetski\Dubinetski.csproj", "{72590B12-6ACD-4C4F-B5E0-1919BA0A057D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF91439-0CA1-4A96-87A4-7C94ED6B6809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF91439-0CA1-4A96-87A4-7C94ED6B6809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF91439-0CA1-4A96-87A4-7C94ED6B6809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF91439-0CA1-4A96-87A4-7C94ED6B6809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72590B12-6ACD-4C4F-B5E0-1919BA0A057D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72590B12-6ACD-4C4F-B5E0-1919BA0A057D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72590B12-6ACD-4C4F-B5E0-1919BA0A057D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72590B12-6ACD-4C4F-B5E0-1919BA0A057D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C9453B0-1FE7-4370-B17F-28F54D63C0A4}
+	EndGlobalSection
+EndGlobal

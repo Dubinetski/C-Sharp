@@ -1,0 +1,6 @@
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\bin\Debug\FlySimulator.dll
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\bin\Debug\FlySimulator.pdb
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\obj\Debug\FlySimulator.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\obj\Debug\FlySimulator.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\obj\Debug\FlySimulator.dll
+C:\Programming\C#\Dubinetski_Exam\FlySimulator\obj\Debug\FlySimulator.pdb

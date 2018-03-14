@@ -1,0 +1,10 @@
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\bin\Debug\Dubinetski.exe.config
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\bin\Debug\Dubinetski.exe
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\bin\Debug\Dubinetski.pdb
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\bin\Debug\FlySimulator.dll
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\bin\Debug\FlySimulator.pdb
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\obj\Debug\Dubinetski.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\obj\Debug\Dubinetski.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\obj\Debug\Dubinetski.csproj.CopyComplete
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\obj\Debug\Dubinetski.exe
+C:\Programming\C#\Dubinetski_Exam\Dubinetski\obj\Debug\Dubinetski.pdb
