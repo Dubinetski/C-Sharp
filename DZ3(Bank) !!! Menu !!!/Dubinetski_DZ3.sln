@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terminal", "Terminal\Terminal.csproj", "{D1934433-FC9F-4658-A31F-A6BDBBC43CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem", "BankSystem\BankSystem.csproj", "{D52230CC-D0F8-40BB-AB8B-B63192E0702C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1934433-FC9F-4658-A31F-A6BDBBC43CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1934433-FC9F-4658-A31F-A6BDBBC43CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1934433-FC9F-4658-A31F-A6BDBBC43CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1934433-FC9F-4658-A31F-A6BDBBC43CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52230CC-D0F8-40BB-AB8B-B63192E0702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52230CC-D0F8-40BB-AB8B-B63192E0702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52230CC-D0F8-40BB-AB8B-B63192E0702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52230CC-D0F8-40BB-AB8B-B63192E0702C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E1FB4E1-40BE-46D8-B080-65CEF9BB1D9F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\bin\Debug\BankSystem.dll
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\bin\Debug\BankSystem.pdb
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\obj\Debug\BankSystem.dll
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\obj\Debug\BankSystem.pdb
+C:\Programming\C#\Dubinetski_DZ3\BankSystem\obj\Debug\BankSystem.csprojResolveAssemblyReference.cache

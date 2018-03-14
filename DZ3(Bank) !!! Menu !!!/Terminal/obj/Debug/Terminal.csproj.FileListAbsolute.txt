@@ -1,0 +1,9 @@
+C:\Programming\C#\Dubinetski_DZ3\Terminal\bin\Debug\Terminal.exe.config
+C:\Programming\C#\Dubinetski_DZ3\Terminal\bin\Debug\Terminal.exe
+C:\Programming\C#\Dubinetski_DZ3\Terminal\bin\Debug\Terminal.pdb
+C:\Programming\C#\Dubinetski_DZ3\Terminal\obj\Debug\Terminal.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_DZ3\Terminal\obj\Debug\Terminal.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ3\Terminal\obj\Debug\Terminal.exe
+C:\Programming\C#\Dubinetski_DZ3\Terminal\obj\Debug\Terminal.pdb
+C:\Programming\C#\Dubinetski_DZ3\Terminal\bin\Debug\BankSystem.dll
+C:\Programming\C#\Dubinetski_DZ3\Terminal\bin\Debug\BankSystem.pdb
