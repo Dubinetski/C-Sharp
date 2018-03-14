@@ -1,0 +1,7 @@
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\obj\Debug\HouseBuilder.csproj.CoreCompileInputs.cache
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\obj\Debug\HouseBuilder.csprojResolveAssemblyReference.cache
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\bin\Debug\HouseBuilder.exe.config
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\bin\Debug\HouseBuilder.exe
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\bin\Debug\HouseBuilder.pdb
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\obj\Debug\HouseBuilder.exe
+E:\Академия ШАГ\C\DubinetskiS\Dubinetski_DZ4\HouseBuilder\obj\Debug\HouseBuilder.pdb
