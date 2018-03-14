@@ -1,0 +1,6 @@
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\bin\Debug\DZ_1.5sort.exe.config
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\bin\Debug\DZ_1.5sort.exe
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\bin\Debug\DZ_1.5sort.pdb
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\obj\Debug\DZ_1.5sort.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\obj\Debug\DZ_1.5sort.exe
+C:\Programming\C#\Dubinetski_DZ1\DZ_1.5sort\obj\Debug\DZ_1.5sort.pdb
