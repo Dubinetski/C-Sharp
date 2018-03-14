@@ -1,0 +1,7 @@
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\obj\Debug\Dubinetski_DZ5.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\obj\Debug\Dubinetski_DZ5.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\bin\Debug\Dubinetski_DZ5.exe.config
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\bin\Debug\Dubinetski_DZ5.exe
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\bin\Debug\Dubinetski_DZ5.pdb
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\obj\Debug\Dubinetski_DZ5.exe
+C:\Programming\C#\Dubinetski_DZ5\Dubinetski_DZ5\obj\Debug\Dubinetski_DZ5.pdb
