@@ -1,0 +1,6 @@
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\bin\Debug\BankRatesLib.dll
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\bin\Debug\BankRatesLib.pdb
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\obj\Debug\BankRatesLib.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\obj\Debug\BankRatesLib.dll
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\obj\Debug\BankRatesLib.pdb
+C:\Programming\C#\Dubinetski_dz7\BankRatesLib\obj\Debug\BankRatesLib.csprojResolveAssemblyReference.cache

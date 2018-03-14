@@ -1,0 +1,9 @@
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\bin\Debug\RateOfExchange.exe.config
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\bin\Debug\RateOfExchange.exe
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\bin\Debug\RateOfExchange.pdb
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\obj\Debug\RateOfExchange.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\obj\Debug\RateOfExchange.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\obj\Debug\RateOfExchange.exe
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\obj\Debug\RateOfExchange.pdb
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\bin\Debug\BankRatesLib.dll
+C:\Programming\C#\Dubinetski_dz7\RateOfExchange\bin\Debug\BankRatesLib.pdb

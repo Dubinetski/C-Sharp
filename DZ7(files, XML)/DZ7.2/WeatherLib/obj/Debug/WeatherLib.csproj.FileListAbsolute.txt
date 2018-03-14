@@ -1,0 +1,6 @@
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\bin\Debug\WeatherLib.dll
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\bin\Debug\WeatherLib.pdb
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\obj\Debug\WeatherLib.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\obj\Debug\WeatherLib.dll
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\obj\Debug\WeatherLib.pdb
+C:\Programming\C#\Dubinetski_dz7.2\WeatherLib\obj\Debug\WeatherLib.csprojResolveAssemblyReference.cache
