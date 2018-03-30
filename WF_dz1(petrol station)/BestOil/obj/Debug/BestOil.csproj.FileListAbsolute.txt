@@ -1,0 +1,11 @@
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\bin\Debug\BestOil.exe.config
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\bin\Debug\BestOil.exe
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\bin\Debug\BestOil.pdb
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.MainWindow.resources
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.Properties.Resources.resources
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.csproj.GenerateResource.cache
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.exe
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.pdb
+C:\Programming\C#\Dubinetski_dzWF_1\BestOil\obj\Debug\BestOil.Illumination.resources
