@@ -1,0 +1,7 @@
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\bin\Debug\Simple_query.exe.config
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\bin\Debug\Simple_query.exe
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\bin\Debug\Simple_query.pdb
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\obj\Debug\Simple_query.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\obj\Debug\Simple_query.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\obj\Debug\Simple_query.exe
+C:\Programming\C#\Dubinetski_ADO_dz1\Simple_query\obj\Debug\Simple_query.pdb
