@@ -1,0 +1,10 @@
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile Store.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile_Store.MainForm.resources
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile_Store.Properties.Resources.resources
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile Store.csproj.GenerateResource.cache
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile Store.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\bin\Debug\Mobile Store.exe.config
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\bin\Debug\Mobile Store.exe
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\bin\Debug\Mobile Store.pdb
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile Store.exe
+C:\Programming\C#\Dubinetski_dzWF_2\Mobile Store\obj\Debug\Mobile Store.pdb
