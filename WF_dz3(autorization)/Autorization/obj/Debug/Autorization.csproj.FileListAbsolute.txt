@@ -1,0 +1,13 @@
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\bin\Debug\Autorization.exe.config
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\bin\Debug\Autorization.exe
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\bin\Debug\Autorization.pdb
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.csprojResolveAssemblyReference.cache
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.Properties.Resources.resources
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.csproj.GenerateResource.cache
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.exe
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.pdb
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.AutorizationForm.resources
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.PassRecoveryForm.resources
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.RegForm.resources
+C:\Programming\C#\Dubinetski_dzWF_3\Autorization\obj\Debug\Autorization.MainUserForm.resources
