@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfPRODUCER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PRODUCER>
+		<ID>1</ID>
+                <NAME>Bob Nare</NAME>
+		<DATE>2003-01-04</DATE>
+		<FEE>1000</FEE>
+	</PRODUCER>
+        <PRODUCER>
+		<ID>2</ID>
+                <NAME>Ivan Drago</NAME>
+		<DATE>2001-12-24</DATE>
+		<FEE>1730</FEE>
+	</PRODUCER>
+        <PRODUCER>
+		<ID>3</ID>
+                <NAME>Ben Slimane</NAME>
+		<DATE>1999-10-15</DATE>
+		<FEE>2100</FEE>
+	</PRODUCER>
+        <PRODUCER>
+		<ID>4</ID>
+                <NAME>Klara Klichko</NAME>
+		<DATE>1998-02-23</DATE>
+		<FEE>1050</FEE>
+	</PRODUCER>
+        <PRODUCER>
+		<ID>5</ID>
+                <NAME>Jon Jakobson</NAME>
+		<DATE>1999-01-04</DATE>
+		<FEE>2400</FEE>
+	</PRODUCER>
+</ArrayOfPRODUCER>

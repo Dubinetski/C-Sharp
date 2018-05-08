@@ -1,0 +1,10 @@
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\bin\Debug\LinqToObjects.exe.config
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\bin\Debug\LinqToObjects.exe
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\bin\Debug\LinqToObjects.pdb
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.Properties.Resources.resources
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.csproj.GenerateResource.cache
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.exe
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.pdb
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.MainForm.resources
+C:\Programming\C#\Dubinetski_dzWF_4\LinqToObjects\obj\Debug\LinqToObjects.csprojAssemblyReference.cache
