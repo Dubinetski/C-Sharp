@@ -1,0 +1,10 @@
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\bin\Debug\LinqToXml.exe.config
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\bin\Debug\LinqToXml.exe
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\bin\Debug\LinqToXml.pdb
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.csprojAssemblyReference.cache
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.MainForm.resources
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.Properties.Resources.resources
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.csproj.GenerateResource.cache
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.exe
+C:\Programming\C#\Dubinetski_dzWF_5\LinqToXml\obj\Debug\LinqToXml.pdb
