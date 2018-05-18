@@ -10,6 +10,8 @@ namespace LinqToXml {
 		public MainForm() {
 			InitializeComponent();
 			mondialDoc = XElement.Load(@".\countries.xml");
+
+			System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
 		}
 
 		//1. Вывести список всех стран	
@@ -42,15 +44,15 @@ namespace LinqToXml {
 				.SelectMany(p => p.Elements("encompassed"),     // некоторые страны расположены одновременно на нескольких континентах (отношение один ко многим) 
 				(c, enc) => new {
 					Country = c.Attribute("name").Value,
-					Country_Area = Convert.ToInt32(c.Attribute("population").Value) * Convert.ToInt32(enc.Attribute("percentage").Value) / 100,	 // площадь страны вычисляем с учетом процента нахождения на данном континенте
-					Country_Population = Convert.ToInt32(c.Attribute("population").Value) * Convert.ToInt32(enc.Attribute("percentage").Value) / 100,
+					Country_Area = Convert.ToDouble(c.Attribute("total_area")?.Value) * Convert.ToInt32(enc.Attribute("percentage")?.Value) / 100,   // площадь страны вычисляем с учетом процента нахождения на данном континенте
+					Country_Population = Convert.ToInt32(c.Attribute("population")?.Value) * Convert.ToInt32(enc.Attribute("percentage")?.Value) / 100,
 					Continent = enc.Attribute("continent").Value,
 				})
 				.GroupBy(key => key.Continent, (key, g) => new {
 					Continent = key,
 					Countries = g.Count(),
 					Population = g.Sum(p => p.Country_Population),
-					Area = g.Sum(p => p.Country_Area)
+					Area = (int)g.Sum(p => p.Country_Area)
 				})
 				.OrderBy(p => p.Continent)
 			.ToList();
