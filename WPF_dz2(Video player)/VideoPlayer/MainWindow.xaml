@@ -1,0 +1,141 @@
+﻿<Window x:Class="VideoPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:repository="clr-namespace:VideoPlayer.Repository"
+        xmlns:local="clr-namespace:VideoPlayer"
+        xmlns:entities="clr-namespace:VideoPlayer.Entities"
+        mc:Ignorable="d"
+        Title="DSPlayer" Height="450" Width="800" WindowStyle="None"
+         Loaded="MainWindow_OnLoaded">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top" Background="{StaticResource IconBackgroundMenuItem}">
+            <Button Name="btnClose" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="BtnClose_OnClick">
+                <Path Data="{StaticResource closeStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+            </Button>
+            <Button Name="btnFullScreen" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="BtnFullScreen_OnClick">
+                <Path Width="15" Height="15" Stretch="Uniform" Fill="{StaticResource FillPath}" Data="{StaticResource fullScreen}" />
+            </Button>
+            <Button Name="btnNoFullScreen" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Visibility="Collapsed" Click="BtnNoFullScreen_OnClick">
+                <Path Width="15" Height="15" Stretch="Uniform" Fill="{StaticResource FillPath}" Data="{StaticResource noFullScreen}" />
+            </Button>
+            <Button Name="btnMaximize" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="BtnMaximize_OnClick">
+                <Path Width="15" Height="15" Stretch="Uniform" Fill="{StaticResource FillPath}" Data="{StaticResource maximize}" />
+            </Button>
+            <Button Name="btnRestoreDown" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Visibility="Collapsed" Click="BtnRestoreDown_OnClick">
+                <Path Width="15" Height="15" Stretch="Uniform" Fill="{StaticResource FillPath}" Data="{StaticResource restoreDown}" />
+            </Button>
+            <Button Name="btnMinimize" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="BtnMinimize_OnClick">
+                <Rectangle Width="10" Height="2" Margin="0,10,0,0" Stretch="Fill" Fill="{StaticResource FillPath}" />
+            </Button>
+            <Button Name="btnUnPined" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="BtnUnPined_OnClick">
+                <Path Data="{StaticResource pin_rotated_315Style0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+            </Button>
+            <Button Name="btnPined" DockPanel.Dock="Right" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Visibility="Collapsed" Click="BtnPined_OnClick">
+                <Path Data="{StaticResource pinStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+            </Button>
+            <Button Name="btnMenu" DockPanel.Dock="Left" HorizontalAlignment="Left" Width="25" Height="25" VerticalAlignment="Center">
+                <Image Source="Images/MediaPlayer.ico"></Image>
+            </Button>
+            <TextBlock VerticalAlignment="Center" Margin="10,0" Foreground="{StaticResource FillPath}" MouseLeftButtonDown="Title_OnMouseLeftButtonDown">DSPlayer</TextBlock>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Bottom" Height="35"  Background="{StaticResource BackgroundExpanderBottom}">
+            <Button Name="btnPlay" DockPanel.Dock="Left" Width="25" Height="25" Margin="5,0,0,0"  VerticalAlignment="Center" Click="play_Click">
+                <Path Data="{StaticResource playStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+            </Button>
+            <Button Name="btnPause" DockPanel.Dock="Left" Width="25" Height="25" Margin="5,0,0,0" Click="pause_Click" Visibility="Collapsed">
+                <Path Data="{StaticResource pauseStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+            </Button>
+            <Button Name="btnStop" DockPanel.Dock="Left" Width="25" Height="25" VerticalAlignment="Center" Click="stop_Click">
+                <Rectangle Width="10" Height="10" Stretch="Fill" Fill="{StaticResource FillPath}" />
+            </Button>
+            <Button Name="btnPrevFile" DockPanel.Dock="Left" Width="25" Height="25" VerticalAlignment="Center" Click="BtnPrevFile_OnClick">
+                <Path Data="{StaticResource rewindStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}"  Margin="3"/>
+            </Button>
+            <Button Name="btnNextFile" DockPanel.Dock="Left" Width="25" Height="25" VerticalAlignment="Center" Click="BtnNextFile_OnClick">
+                <Path Data="{StaticResource fastforwardStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="3"/>
+            </Button>
+            <Button Name="btnFileOpen" DockPanel.Dock="Left" Width="25" Height="25" VerticalAlignment="Center" Click="btnFileOpen_Click">
+                <Path Data="{StaticResource control_ejectStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="4"/>
+            </Button>
+            <TextBlock Name="tbPosition" DockPanel.Dock="Left" Margin="5,7,5,5" FontWeight="Bold" FontSize="15">00:00:00</TextBlock>
+            <TextBlock DockPanel.Dock="Left" FontWeight="Bold" FontSize="15" Margin="0, 7">/</TextBlock>
+            <TextBlock Name="tbDutation" DockPanel.Dock="Left" Margin="5,7,0,5" FontWeight="Bold" FontSize="15">00:00:00</TextBlock>
+            <ToggleButton Name="chFileListOpen" DockPanel.Dock="Right" Width="25" Height="25" Margin="5 , 0" VerticalAlignment="Center"
+                          Checked="ChFileListOpen_OnChecked" 
+                          Unchecked="ChFileListOpen_OnUnchecked">
+                <Path Data="{StaticResource paperStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="3"/>
+            </ToggleButton>
+            <Label DockPanel.Dock="Right" />
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Bottom" Background="{StaticResource BackgroundExpanderBottom}">
+            <Slider Name="sbarVolume" DockPanel.Dock="Right" Width="100" VerticalAlignment="Center" Minimum="0" Maximum="1" Value="1" IsMoveToPointEnabled="True"   
+                    ValueChanged="SbarVolume_OnValueChanged"/>
+            <Label Name="lbVolume" DockPanel.Dock="Right" Height="25" MouseLeftButtonDown="LbVolume_OnMouseLeftButtonDown">
+                <Path Data="{StaticResource sound_2Style0}" Stretch="Uniform" Fill="{StaticResource FillPath}"/>
+            </Label>
+            <Slider Name="sbarPosition" DockPanel.Dock="Left" IsMoveToPointEnabled="True" VerticalAlignment="Center" Minimum="0"
+                    ValueChanged="SbarPosition_OnValueChanged"
+                    />
+        </DockPanel>
+        <Grid Name="grPlayer" Background="{StaticResource BackgroundExpanderBottom}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="200" MinWidth="150"/>
+            </Grid.ColumnDefinitions>
+            <Border Name="bMedia" Grid.ColumnSpan="3">
+                <Border.Background>
+                    <ImageBrush ImageSource="Images/default.jpg" Stretch="UniformToFill"/>
+                </Border.Background>
+                <MediaElement Name="media_scren"
+                              LoadedBehavior="Manual" Stretch="Uniform"  ScrubbingEnabled="True"
+                              MediaEnded="media_scren_MediaEnded"
+                              MediaOpened="Media_scren_OnMediaOpened"
+                              MediaFailed="Media_scren_OnMediaFailed"/>
+            </Border>
+            <GridSplitter  Name="grSplit" Grid.Column="1" Width="3" Background="Black" Visibility="Collapsed" HorizontalAlignment="Stretch"></GridSplitter>
+            <Grid Name="dpList" Grid.Column="2" Visibility="Collapsed" Background="{StaticResource BackgroundExpanderBottom}">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <DataGrid Name="dgFileList" Grid.ColumnSpan="5" 
+                          DockPanel.Dock="Top" HeadersVisibility="Row" HorizontalScrollBarVisibility="Disabled"
+                          AutoGenerateColumns="False" IsReadOnly="True" RowHeaderWidth="20" 
+                          LoadingRow="dgFileList_LoadingRow"
+                          MouseDoubleClick="DgFileList_OnMouseDoubleClick">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Name="btnUp" Grid.Row="1" Grid.Column="0" Width="25" Height="25"  Click="BtnUp_OnClick">
+                    <Path Data="{StaticResource chevron_upStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+                </Button>
+                <Button Name="btnDown" Grid.Row="1" Grid.Column="1"  Width="25" Height="25"  Click="BtnDown_OnClick">
+                    <Path Data="{StaticResource chevron_downStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+                </Button>
+                <Button Name="btnClear" Grid.Row="1" Grid.Column="3"  Width="25" Height="25"  Click="BtnClear_OnClick">
+                    <Path Width="15" Height="15" Stretch="Uniform" Fill="{StaticResource FillPath}" Data="{StaticResource clear}" />
+                </Button>
+                <Button Name="btnAdd" Grid.Row="1" Grid.Column="4" Width="25" Height="25"  Click="BtnAdd_OnClick">
+                    <Path Data="{StaticResource addStyle0}" Stretch="Uniform" Fill="{StaticResource FillPath}" Margin="5"/>
+                </Button>
+                <Button Name="btnRem" Grid.Row="1" Grid.Column="5" Width="25" Height="25"  Click="BtnRem_OnClick">
+                    <Rectangle Width="12" Height="2" Stretch="Fill" Fill="{StaticResource FillPath}" />
+                </Button>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>
+
+
